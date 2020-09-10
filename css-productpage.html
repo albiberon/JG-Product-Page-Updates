@@ -2382,7 +2382,7 @@
             let dyoURL = currentURL + "/design-your-own";
             console.log(dyoURL);
             $('.dyo-tooltip').on('click', function () {
-                window.location = dyoURL;
+                window.open(dyoURL,'PopupWindow');
             });
 
             $('.product-info-main').on('mouseenter',function(){
